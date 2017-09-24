@@ -1,0 +1,38 @@
+h1{
+    background-color: red;
+}
+h1{
+    background-color: yellow;
+}
+
+/*Selector ID*/
+#paragraph{
+    color: grey;
+}
+/*Selektor klasy*/
+.menu{
+    font-size: 3em;
+}
+/*Selektro potomstwa bezposredniego*/
+div>span{
+    color:coral;
+}
+/*Selector potomstwa*/
+section span{
+    background-color: yellow;
+}
+/*selektro bezposredniego rodzenstwa*/
+h2 + p{
+    font-size: 1.5em;
+}
+/*selektor rodzenstwa
+selektory na tym samym poziomie*/
+h3 ~ p{
+    background-color: pink;
+}
+.header{
+    background-color: orange;
+}
+h2{
+    background-color: aqua;
+}
